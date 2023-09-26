@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelReaderAPI", "..\ExcelR
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSV_Modifier_Lambda", "..\CSV_Modifier_LambdaFn\CSV_Modifier_Lambda.csproj", "{87E07106-8E00-4C9B-8FF4-979145ED4FAE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSV_Modifier_Client", "..\CSV_Modifier_Client\CSV_Modifier_Client.csproj", "{C5C70B27-D9F6-4D17-8B44-A4D006C79F29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aws_Notification_Service_App", "Aws_Notification_Service_App\Aws_Notification_Service_App.csproj", "{F06C347A-C730-47E2-BE72-C9199BE1151F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,22 @@ Global
 		{87E07106-8E00-4C9B-8FF4-979145ED4FAE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{87E07106-8E00-4C9B-8FF4-979145ED4FAE}.Release|x86.ActiveCfg = Release|Any CPU
 		{87E07106-8E00-4C9B-8FF4-979145ED4FAE}.Release|x86.Build.0 = Release|Any CPU
+		{C5C70B27-D9F6-4D17-8B44-A4D006C79F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C70B27-D9F6-4D17-8B44-A4D006C79F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C70B27-D9F6-4D17-8B44-A4D006C79F29}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C5C70B27-D9F6-4D17-8B44-A4D006C79F29}.Debug|x86.Build.0 = Debug|Any CPU
+		{C5C70B27-D9F6-4D17-8B44-A4D006C79F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C70B27-D9F6-4D17-8B44-A4D006C79F29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C70B27-D9F6-4D17-8B44-A4D006C79F29}.Release|x86.ActiveCfg = Release|Any CPU
+		{C5C70B27-D9F6-4D17-8B44-A4D006C79F29}.Release|x86.Build.0 = Release|Any CPU
+		{F06C347A-C730-47E2-BE72-C9199BE1151F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06C347A-C730-47E2-BE72-C9199BE1151F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06C347A-C730-47E2-BE72-C9199BE1151F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F06C347A-C730-47E2-BE72-C9199BE1151F}.Debug|x86.Build.0 = Debug|Any CPU
+		{F06C347A-C730-47E2-BE72-C9199BE1151F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06C347A-C730-47E2-BE72-C9199BE1151F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F06C347A-C730-47E2-BE72-C9199BE1151F}.Release|x86.ActiveCfg = Release|Any CPU
+		{F06C347A-C730-47E2-BE72-C9199BE1151F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
