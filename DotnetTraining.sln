@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelReader", "..\ExcelRead
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelReaderAPI", "..\ExcelReader\ExcelReaderAPI\ExcelReaderAPI.csproj", "{848CA018-8C5B-4D42-B792-33BE8B13BC7D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSV_Modifier_Lambda", "..\CSV_Modifier_LambdaFn\CSV_Modifier_Lambda.csproj", "{87E07106-8E00-4C9B-8FF4-979145ED4FAE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,14 +31,6 @@ Global
 		{848CA018-8C5B-4D42-B792-33BE8B13BC7D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{848CA018-8C5B-4D42-B792-33BE8B13BC7D}.Release|x86.ActiveCfg = Release|Any CPU
 		{848CA018-8C5B-4D42-B792-33BE8B13BC7D}.Release|x86.Build.0 = Release|Any CPU
-		{87E07106-8E00-4C9B-8FF4-979145ED4FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87E07106-8E00-4C9B-8FF4-979145ED4FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87E07106-8E00-4C9B-8FF4-979145ED4FAE}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{87E07106-8E00-4C9B-8FF4-979145ED4FAE}.Debug|x86.Build.0 = Debug|Any CPU
-		{87E07106-8E00-4C9B-8FF4-979145ED4FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87E07106-8E00-4C9B-8FF4-979145ED4FAE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{87E07106-8E00-4C9B-8FF4-979145ED4FAE}.Release|x86.ActiveCfg = Release|Any CPU
-		{87E07106-8E00-4C9B-8FF4-979145ED4FAE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
